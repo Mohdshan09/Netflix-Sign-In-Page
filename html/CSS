@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body
+    class="bg-[url('https://assets.nflxext.com/ffe/siteui/vlv3/729ce5c2-d831-436a-8c9d-f38fea0b99b3/web/IN-en-20241209-TRIFECTA-perspective_4aef76eb-7d5b-4be0-93c0-5f67320fd878_medium.jpg')] h-lvh bg-contain flex justify-center items-center"
+  >
+    <div
+      class="bg-black/[0.8] px-8 py-20 max-w-sm w-full max-h-sm rounded-md shadow-xl"
+    >
+      <h2 class="text-white font-medium text-3xl mb-5">Sign In</h2>
+      <form action="#">
+        <div class="mb-5">
+          <input
+            class="w-full px-3 py-4 rounded-md bg-slate-700/[0.7] text-sm shadow-xl border border-white/[0.5] text-white"
+            type="email"
+            name="email"
+            required
+            placeholder="Email or mobile number"
+          />
+        </div>
+
+        <div class="mb-5">
+          <input
+            type="password"
+            placeholder="Password"
+            required
+            class="w-full px-3 py-4 rounded-md bg-slate-700/[0.7] text-sm shadow-xl border border-white/[0.5] text-white"
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-red-700/[1] py-2 rounded-md text-white font-medium mb-5 hover:bg-red-800"
+        >
+          Sign In
+        </button>
+        <p class="text-center text-white/[0.7] mb-5">OR</p>
+        <button
+          type="submit"
+          class="w-full text-white font-medium bg-white/[0.3] py-2 rounded-md text-center mb-5 hover:bg-white/[0.1]"
+        >
+          Use a sign-in code
+        </button>
+        <div>
+          <p class="text-center text-white mb-5 hover:underline">
+            <a href="#">Forgot password?</a>
+          </p>
+        </div>
+        <input
+          type="checkbox"
+          name="checkbox"
+          id="checkbox"
+          required
+          class="scale-x-150 scale-y-150 mb-5 hover:bg-white/[0.7]"
+        />
+        <label for="" class="text-white ml-2">Remember me</label>
+        <br />
+        <span class="text-white/[0.6] font-normal"
+          >New to Netflix?
+          <a class="text-white font-medium hover:underline" href="#"
+            >Sign up now.</a
+          >
+        </span>
+      </form>
+    </div>
+  </body>
+</html>
